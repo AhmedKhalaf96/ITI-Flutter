@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iti/Day1/task1/FirstScreen.dart';
 import 'package:iti/home.dart';
 
+import 'Day1/Bouns/Bouns1.dart';
 import 'Day1/task2/Room.dart';
 
 void main() {
@@ -18,10 +19,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
 
       ),
-      home:  First (),
+      home:  Login (),
     );
   }
 }
